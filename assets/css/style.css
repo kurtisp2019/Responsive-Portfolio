@@ -216,18 +216,115 @@ input[type=submit] {
   border: 0 none;
 }
 
+
+/****************************************************************************************************
+*************         Media Queries         *************************
+*****************************************************************************************************/
+
+@media screen and (max-width: 980px){
+  
+  h1 {
+    padding-bottom: 5px;
+    font-size: 25px;
+    line-height: 49px;
+    
+  }
+  .main-section {
+    position:relative;
+      font-size: 80%;
+      width: 600px;
+
+  }
+  .nav {
+    float:none;
+   
+  }
+  nav a {
+    display: inline-block;
+    padding-left: 5px;
+    margin-left: 15px;
+  }
+  footer {
+    background-color: green;
+  }
+}
+
+  @media screen and (max-width: 768px){
+  
+    .main-section{
+      width:100%;
+      height:auto;
+    }
+    footer {
+      background-color: yellow;
+    }
+  }  
+
 @media screen and (max-width: 640px){
   
+  h1 {
+    padding-bottom: 25px;
+    font-size: 20px;
+    line-height: 0px;
+    border-bottom: 1.5px solid #dddddd;
+  }
   
-}
-@media screen and (max-width: 768px){
+  #logo {
+    width:100%;
+    height:65px;
+    font-size: 20px;
+
+  font-weight: 600;
+  line-height: 70px;   
+  }
+  #masthead {
+    position: static;
+    width: 100%;
+    float:none;
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+   }
+   body {
+     margin: 0px;
+   }
+  #main-container {
+    padding: 0px 10px 0px 10px;
+    border: 0px;
+    
+  }
+  .container {
+     margin: 0px;
+  }
+  .auth-image {
+    width: 100%;
+  }
+  .main-section {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    float: left;
+    padding: 20px;
+    margin-bottom:150px;
   
+  }
+  nav {
+    float:none;
+    text-align: center;
+    font-size: 12px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+
+  }
   footer {
-    background-color: yellow;
+    background-color: red;
   }
   
 }
-@media screen and (max-width: 980px){
-  
-  
+
+@-ms-viewport{
+  width: device-width;
 }
